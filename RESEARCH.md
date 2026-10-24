@@ -16,7 +16,7 @@ Problem: 문항 품질·영역·난도·시간·중복 계열·정답 분포를 
 
 1. Same functionality already exists? Yes, underlying domain operations are established. An existing tool configured for this exact task may remove the need for a separate project.
 2. Existing configuration enough? Plausibly; no exhaustive plugin/configuration execution was completed. Check the nearest tool before expanding this prototype.
-3. Another name? Search terms include Assessment blueprint assembler; assessment blueprint; 문항 품질·영역·난도·시간·중복 계열·정답 분포를 함께 만족하는 시험을 구성한다.; moodle; or-tools. Existing algorithm names appear in the method above.
+3. Another name? Search terms include question bank test blueprint topic difficulty family assembly 출제 조합. Existing algorithm names appear in the method above.
 4. Important user difference? Fewer runtime dependencies and a validated tool boundary are concrete; actual adoption and time savings remain unmeasured.
 5. Added complexity? Structured JSON is a real setup cost. A browser example and exact field errors reduce it, but do not erase it.
 6. Retraction evidence? An existing setup with the same access/contract or a failed invariant/performance comparison removes the claimed practical advantage.

@@ -67,18 +67,22 @@
       "Korean"
     ],
     "queries": [
-      "Assessment blueprint assembler",
-      "assessment blueprint",
-      "문항 품질·영역·난도·시간·중복 계열·정답 분포를 함께 만족하는 시험을 구성한다.",
-      "moodle",
-      "or-tools"
+      "question bank test blueprint topic difficulty family assembly 출제 조합"
     ],
     "scope": "Primary documentation and repository descriptions were read on the public web. Competitor code, plugins and packaged execution were not exhaustively tested. This is a bounded prior-art review, not a worldwide novelty search.",
     "limitations": [
       "Search results and documentation do not establish universal absence.",
       "Competitor configuration/plugin parity is not exhausted.",
       "No independent end-user interview or deployment evidence."
-    ]
+    ],
+    "proposed_queries": [
+      "Assessment blueprint assembler",
+      "assessment blueprint",
+      "문항 품질·영역·난도·시간·중복 계열·정답 분포를 함께 만족하는 시험을 구성한다.",
+      "moodle",
+      "or-tools"
+    ],
+    "query_scope": "One actual bilingual search per resource, grouped in shared cached batches; additional suggested terms are explicitly proposed, not executed."
   },
   "checked_at": "2026-10-24",
   "distinctive_capability": "Reject invalid questions before bounded selection and answer-balance optimization. An offline executable can be called by a small model and checked against an explicit task contract.",
@@ -104,7 +108,8 @@
   "validation_results": {
     "worked_cases": 1,
     "evaluation_cases": 1,
-    "root_required_field_rejection": true
+    "root_required_field_rejection": true,
+    "fixture_role": "Development regression fixtures; not an untouched final model evaluation set."
   },
   "external_impact_evidence": [],
   "decision": {

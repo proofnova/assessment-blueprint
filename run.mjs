@@ -533,6 +533,7 @@ function run(input) {
   requireThat(all.length <= 24, "At most 24 candidate items");
   const requirements = arr(input.blueprint, "blueprint", 12),
     seen = new Set();
+  requireThat(requirements.length > 0, "At least one blueprint cell required");
   for (const requirement of requirements) {
     const key = JSON.stringify([requirement.topic, requirement.difficulty]);
     requireThat(!seen.has(key), "Duplicate blueprint cell");
